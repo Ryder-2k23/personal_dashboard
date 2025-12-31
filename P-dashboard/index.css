@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient( red, blue);
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.dashboard{
+    width: 60%;
+    height: 75vh;
+    background-color: rgba(255, 255, 255, 0.746);
+    border-radius: 5px;
+    margin: 30px 0px 0px 250px;
+    box-shadow: 1px 2px 10px 1px black;
+    padding: 30px
+}
+.img1{
+    width: 50px;
+    height: 25px;
+}
+.greeting{
+    font-size: 35px;
+}
+h4{
+    margin-top: 15px;
+    color: grey;
+    font-family:monospace;
+}
+.time{
+    margin-top: 15px;
+}
+.bibleVerse{
+    margin-top: 15px;
+    width: 90%;
+    height: 40vh;
+    background-color: rgba(135, 206, 250, 0.524);
+    border-radius: 17px;
+    display: block;
+    padding-top: 20px;
+
+}
+.title1{
+    width: 24%;
+    height: 5vh;
+    /* background-color: red; */
+    margin-left: 20px;
+    
+}
+.title2{
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.verse-div{
+    width: 80%;
+    height: 17vh;
+    /* background-color: red; */
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.reference{
+    color: grey;
+}
+.refresh{
+    width: 30px;
+    height: 15px;
+    /* display: none; */
+}
+.refresh2{
+     width: 25px;
+    height: 18px;
+    margin-left: 5px;
+    display: none;
+}
+.verse{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    color: rgba(76, 194, 236, 1);
+    font-size: 15px;
+    background-color: rgba(247, 247, 247, 1);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+button:hover{
+     width: 100px;
+    height: 35px;
+    padding-top: 8px;
+    padding-left: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(76, 194, 236, 1);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 10px;
+}
